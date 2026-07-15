@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>SafeKeepIt — OpenPGP key</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body style="font-family:system-ui,sans-serif;max-width:42rem;margin:3rem auto;padding:0 1rem;line-height:1.6">
+<h1>OpenPGP key — secure@safekeep.it</h1>
+<p>Public key for <strong>S&eacute;bastien Patrick Lambla</strong> &lt;secure@safekeep.it&gt;,
+used for coordinated security-disclosure correspondence.</p>
+<p><strong>Fingerprint</strong><br><code>6E28 5780 F451 22E8 0CA2 B252 533F 02C3 2FC5 A1C8</code></p>
+<p><a href="secure-safekeep.asc">Download public key (.asc)</a> &middot; Ed25519 / Curve25519, held on a Nitrokey&nbsp;3.</p>
+<h2>Import &amp; verify</h2>
+<pre>curl -s https://keys.safekeep.it/secure-safekeep.asc | gpg --import
+gpg --fingerprint secure@safekeep.it   # expect the fingerprint above</pre>
+</body></html>
